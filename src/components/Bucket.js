@@ -14,7 +14,9 @@ function Bucket(props) {
   const submitUpdate = (value) => {
 
     // TODO: Write logic to update the `edit` value in state after a user updates an entry in the list
-
+    setEdit((prev) => {
+      
+    })
     // TODO: Set the key:value pairs in the `edit` object back to empty strings
 
   };
