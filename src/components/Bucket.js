@@ -6,6 +6,7 @@ function Bucket(props) {
     id: null,
     value: '',
     eagerness: '',
+    completed: false
   });
 
   console.log(props.bucket);
